@@ -17,10 +17,6 @@ def isprime(p):
     return Prime
 
 
-pickle
-ProcessLookupError
-
-
 def primeloop(p):
     Prime = 0
     while not (Prime == 1):
