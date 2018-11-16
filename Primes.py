@@ -18,6 +18,7 @@ def isprime(p):
 
 
 pickle
+ProcessLookupError
 
 
 def primeloop(p):
