@@ -17,6 +17,9 @@ def isprime(p):
     return Prime
 
 
+pickle
+
+
 def primeloop(p):
     Prime = 0
     while not (Prime == 1):
@@ -26,8 +29,7 @@ def primeloop(p):
 
 
 def ask():
-    prime = int(
-        input("What number?                                          "))
+    prime = int(input("What number?                                      "))
     primeloop(prime)
 
 
