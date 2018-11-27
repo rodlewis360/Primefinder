@@ -5,22 +5,26 @@ def isprime(p):
     mod = 2
     sqrt_prime = math.sqrt(p)
     while not (mod > sqrt_prime):
+        nPrime = 0
         if ((p % mod) == 0):
             Prime = 0
             p += 1
+            nPrime = 1
             break
         else:
             mod += 1
 
     Prime = 1
-    return (p,Prime)
+    return (nPrime, p, Prime)
 
 
 def primeloop(p):
     Prime = 0
-    while not (Prime == 1):
+    nPrime = 1
+    while (nPrime == 1 ) or not (Prime == 1):
+        nPrime = 0
         q = isprime(p)
-        p, Prime = q
+        nPrime, p, Prime = q
 
     print("Your prime is", p)
 
