@@ -8,19 +8,19 @@ def isprime(p):
         if ((p % mod) == 0):
             Prime = 0
             p += 1
-            return p
             break
         else:
             mod += 1
 
     Prime = 1
-    return Prime
+    return (p,Prime)
 
 
 def primeloop(p):
     Prime = 0
     while not (Prime == 1):
-        p = isprime(p)
+        q = isprime(p)
+        p, Prime = q
 
     print("Your prime is", p)
 
