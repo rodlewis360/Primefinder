@@ -13,8 +13,7 @@ def isprime(p):
             break
         else:
             mod += 1
-
-    Prime = 1
+        Prime = 1
     return (nPrime, p, Prime)
 
 
@@ -26,8 +25,8 @@ def primeloop(p):
         print("calculating", p)
         q = isprime(p)
         nPrime, p, Prime = q
-
     print("Your prime is", p)
+
 
 
 def ask():
