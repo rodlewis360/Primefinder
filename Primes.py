@@ -17,6 +17,7 @@ def isprime(p):
     Prime = 1
     return (nPrime, p, Prime)
 
+
 def primeloop(p):
     Prime = 0
     nPrime = 1
