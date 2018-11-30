@@ -44,7 +44,7 @@ def primeloop(p):
 
 
 def ask():
-    prime = int(input("What number?  "))
+    prime = 10**int(input("What number?  "))
     print("Finding")
     primeloop(prime)
 
