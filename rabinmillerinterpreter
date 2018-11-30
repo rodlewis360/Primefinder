@@ -40,7 +40,7 @@ def primeloop(p):
         p+=1
         if (p % 100 == 0):
             print ("checking range", p)
-        print("Your prime is", p)
+    print("Your prime is", p)
 
 
 def ask():
