@@ -30,7 +30,8 @@ def primeloop(p):
 
 
 def ask():
-    prime = int(input("What number?                                      "))
+    print("What number?")
+    prime = int(input(""))
     print("calcuating")
     primeloop(prime)
 
