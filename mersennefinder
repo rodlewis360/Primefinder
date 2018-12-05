@@ -1,12 +1,15 @@
 def prime():
     a = 0
     b = 2
+    n = 0
     while not a == 'stop':
         a = input('')
         if a == '':
-            b = b**2
+            n += 1
         if a == 'stop':
             break
+    b = b**n
     b -= 1
     print(b)
+    return b
     
