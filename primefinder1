@@ -56,7 +56,12 @@ def prime():
     while not a == 'stop':
         a = input('')
         if a == '':
-            n += 1
+            n += 3
+        if a == 'stop':
+            break
+        a = input('')
+        if a == '':
+            n += 2
         if a == 'stop':
             break
     b = b**n
