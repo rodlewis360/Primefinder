@@ -1,11 +1,11 @@
 
-def fib(n):
+def fib(n, times):
     list = []
     a, b = 1, 2
     while a < n:
         a, b = b, a+b
         list.append(b)
-    return list
+    return prime(times, list)
 
 def prime(a, list):
     str(list)
@@ -19,6 +19,7 @@ def prime(a, list):
             b += 1
             c += 1
         d += 1
+    print(p)
     return p
  
 import math
@@ -74,18 +75,12 @@ def primeloop(p):
 
 
 
-
-
-
 def ask():
-
-    print("What number?")
-
-    prime = int(input(""))
-
-    print("calcuating")
-
-    primeloop(prime)
+    print("How many times?")
+    p = input('')
+    primeloop(fib(p))
+    
+ask()
 
 
 
