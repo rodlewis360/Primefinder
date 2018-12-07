@@ -5,7 +5,7 @@ def fib(n):
     while a < n:
         a, b = b, a+b
         list.append(b)
-    return prime(n, list)
+    return list
 
 def prime(a, list):
     str(list)
@@ -19,4 +19,7 @@ def prime(a, list):
             b += 1
             c += 1
         d += 1
+    return p
+ 
+ 
         
