@@ -5,4 +5,18 @@ def fib(n):
     while a < n:
         a, b = b, a+b
         list.append(b)
-    return list
+    return prime(n, list)
+
+def prime(a, list):
+    str(list)
+    b = 1
+    d = 0
+    p = 0
+    while d <= a:
+        c = 0
+        while c <= 4:
+            p += list[b]
+            b += 1
+            c += 1
+        d += 1
+        
